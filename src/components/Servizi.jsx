@@ -7,13 +7,13 @@ function Servizi() {
     {
       id: "patente-am",
       title: "Patente AM (Quad e Moto)",
-      img: "https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&q=80&w=400",
+      img: "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&q=80&w=400",
       short: "Per ragazzi dai 14 anni. Ciclomotori e Quadricicli leggeri.",
     },
     {
       id: "patente-moto",
       title: "Patente A1, A2, A",
-      img: "https://images.unsplash.com/photo-1558981420-c532902e58b4?auto=format&fit=crop&q=80&w=400",
+      img: "https://images.unsplash.com/photo-1558980394-4c7c9299fe96?auto=format&fit=crop&q=80&w=400",
       short: "Patenti moto, con opzione automatica per A1.",
     },
     {
@@ -25,7 +25,7 @@ function Servizi() {
     {
       id: "patente-superiore",
       title: "Patenti Superiori (C, D)",
-      img: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&q=80&w=400",
+      img: "https://images.unsplash.com/photo-1519003722811-9d4ca84f7b60?auto=format&fit=crop&q=80&w=400",
       short: "Patenti per camion, autobus e professionisti.",
     },
     {
@@ -37,7 +37,7 @@ function Servizi() {
     {
       id: "recupero-punti",
       title: "Recupero Punti",
-      img: "/graffiti.png",
+      img: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=400",
       short: "Corsi per recuperare 6 o 9 punti patente.",
     },
     {
