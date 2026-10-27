@@ -1,4 +1,5 @@
 import React from 'react';
+import CookieBanner from './components/CookieBanner';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import PatenteDetail from './pages/PatenteDetail';
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/patente/:id" element={<PatenteDetail />} />
       </Routes>
+      <CookieBanner />
     </BrowserRouter>
   );
 }

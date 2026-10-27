@@ -58,6 +58,12 @@ function Contatti() {
               <input type="text" placeholder="Il tuo nome" required />
               <input type="email" placeholder="La tua email" required />
               <textarea placeholder="Come possiamo aiutarti?" rows="4" required></textarea>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '8px', margin: '10px 0', textAlign: 'left' }}>
+                <input type="checkbox" id="privacy-consent" required style={{ margin: 0 }} />
+                <label htmlFor="privacy-consent" style={{ fontSize: '0.85rem', color: '#555' }}>
+                  Ho letto e accetto la <a href="#" style={{ color: '#d32f2f', textDecoration: 'underline' }}>Privacy Policy</a>
+                </label>
+              </div>
               <button type="submit" className="btn btn-red" style={{width: '100%', marginTop: '10px'}}>Invia Messaggio</button>
             </form>
           </div>
